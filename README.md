@@ -16,7 +16,11 @@ This project is built using **React** that fetches data from the **YouTube API**
 - Supports **N-depth commenting**, allowing users to reply at any level.
 - Provides a structured discussion experience.
 
-### 4️⃣ **Performance Optimization**
+### 4️⃣ **Live Chat**
+- Enables real-time chat functionality alongside video playback.
+- Users can send messages that are instantly visible to other viewers, enhancing engagement.
+
+### 5️⃣ **Performance Optimization**
 - Implemented **caching logic** to store searched query data for faster retrieval.
 - Uses **React-Redux** for efficient state management.
 
@@ -68,7 +72,7 @@ This project is built using **React** that fetches data from the **YouTube API**
 - **Dark Mode Toggle** for a better UI experience
 
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source
 
 ---
 
