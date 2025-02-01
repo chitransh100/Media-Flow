@@ -2,8 +2,8 @@ import './App.css';
 import Head from './components/Head';
 import Body from './components/Body';
 import store from './store/store';
-import { Provider } from 'react-redux';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Provider } from '../node_modules/react-redux'
+import { createBrowserRouter, RouterProvider } from '../node_modules/react-router-dom';
 import MainContainer from './components/MainContainer';
 import Watchpage from './components/Watchpage';
 

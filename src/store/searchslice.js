@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "../node_modules/@reduxjs/toolkit";
 
 // Define the slice
 const searchSlice = createSlice({
