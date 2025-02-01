@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "../../node_modules/react";
 import { YouTube_API } from "../store/constants";
 import VideoCard from "./VideoCard";
-import { Link } from "react-router-dom";
+import { Link } from "../../node_modules/react-router-dom";
 
 const VideoContainer=()=>
 {

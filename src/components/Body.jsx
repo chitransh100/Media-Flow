@@ -1,6 +1,6 @@
 import Sidebar from "./Sidebar.jsx"
 import MainContainer from "./MainContainer.jsx"
-import { Outlet } from "react-router-dom";
+import { Outlet } from "../../node_modules/react-router-dom";
 import Head from "./Head.jsx";
 
 const Body=()=>

@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useEffect } from "../../node_modules/react";
+import { useDispatch } from "../../node_modules/react-redux";
 import { closeMenu } from "../store/appslice";
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams, useSearchParams } from "../../node_modules/react-router-dom";
 import CommentContainer from "./CommentsContainer";
 import LiveChat from "./LiveChats";
 const Watchpage = () => {

@@ -1,4 +1,4 @@
-import { Provider, useSelector } from 'react-redux'
+import { Provider, useSelector } from '../../node_modules/react-redux'
 const Sidebar=()=>
 {
     const toggle=useSelector((store)=>store.app.toggle); 

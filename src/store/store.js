@@ -1,4 +1,4 @@
-import { configureStore } from ".../node_modules/@reduxjs/toolkit";
+import { configureStore } from "../../node_modules/@reduxjs/toolkit";
 import appslice from "./appslice.js"
 import searchSlice from "./searchslice.js"
 import ChatSlice from "./ChatSlice.js"

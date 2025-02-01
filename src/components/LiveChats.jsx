@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import ChatMessage from "./ChatMessage";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "../../node_modules/react-redux";
 import { addMessage } from "../store/ChatSlice";
 import { generateName, generateString } from "../store/MessageSrc";
 

@@ -1,4 +1,4 @@
-import { createSlice } from "../node_modules/@reduxjs/toolkit";
+import { createSlice } from "../../node_modules/@reduxjs/toolkit";
 
 const appslice=createSlice({
     name: "app",
