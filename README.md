@@ -31,7 +31,11 @@ This project is built using **React** that fetches data from the **YouTube API**
 - **YouTube API** (Fetching video data)
 - **CSS** (Responsive UI design)
 
-## 🏗️ Setup Instructions
+## 🏷️ Important Note
+To enable **search suggestions functionality**, you must install a **CORS extension** on your browser. This is required because the YouTube API restricts cross-origin requests in certain environments.
+- [CORS Unblock Extension for Chrome](https://chrome.google.com/webstore/detail/cors-unblock/) (or search for a similar extension for your browser)
+
+## 🏰 Setup Instructions
 ### 🔹 Prerequisites
 - Node.js installed
 - Git installed
@@ -55,15 +59,15 @@ This project is built using **React** that fetches data from the **YouTube API**
    ```
 5. Open **http://localhost:3000/** in your browser.
 
-## 📂 Project Structure
+## 📺 Project Structure
 ```
 📁 src
  ┣ 📁 components       # Reusable UI components
  ┣ 📁 pages            # Main application pages
  ┣ 📁 redux            # Redux store & slices
  ┣ 📁 utils            # Helper functions
- ┣ 📜 App.js           # Main App component
- ┣ 📜 index.js         # Entry point
+ ┣ 📝 App.js           # Main App component
+ ┣ 📝 index.js         # Entry point
 ```
 
 ## 🌟 Future Enhancements
@@ -71,10 +75,9 @@ This project is built using **React** that fetches data from the **YouTube API**
 - **Like & Dislike System** for videos & comments
 - **Dark Mode Toggle** for a better UI experience
 
-## 📜 License
+## 📝 License
 This project is open-source
 
 ---
 
-🚀 Happy Coding! 🎥🎶
 
